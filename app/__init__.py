@@ -48,7 +48,7 @@ def upload_pickle():
                     obj = pickle.load(f)
 
                 cursor = mysql.connection.cursor()
-                cursor.execute(''' INSERT INTO pickle VALUES(%s)''',(str(obj)))
+                cursor.execute(''' INSERT INTO pickle(data) VALUES(%s)''',[filename])
                 mysql.connection.commit()
                 cursor.close()
 
