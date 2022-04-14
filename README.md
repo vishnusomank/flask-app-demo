@@ -15,3 +15,7 @@ To deploy the application to k8s
 ```
 kubectl apply -f https://raw.githubusercontent.com/vsk-coding/flask-app-demo/main/k8s.yaml
 ```
+
+
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vishnusk)
